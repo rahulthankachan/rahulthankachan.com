@@ -1,0 +1,217 @@
+.content {
+	padding-top: 50px;
+}
+
+.navbar-default {
+	border: none;
+	margin-bottom: 0px;
+	font-weight: bold;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 70px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+
+  	span.devide-line {
+	height: 1050px;
+  }
+}
+
+
+@media (max-width: 992px) {
+	span.devide-line {
+	height: 1150px;
+  }
+
+}
+
+@media (max-width: 768px) {
+	span.devide-line {
+	height: 1200px;
+  }
+
+}
+
+@media (max-width: 650px) {
+	span.devide-line {
+	height: 1400px;
+  }
+
+}
+
+
+@media (max-width: 544px) {
+	span.devide-line {
+	height: 1550px;
+  }
+
+}
+
+
+@media (max-width: 420px) {
+	span.devide-line {
+	height: 1850px;
+  }
+
+}
+
+
+
+
+
+
+
+.experience {
+    min-height: 500px;
+}
+
+.exp-devide {
+    position: relative;
+    text-align: center;
+}
+
+span.devide-line {
+    width: 3px;
+    position: absolute;
+    top: 30px;
+    display: initial;
+    background: #d4d4d4;
+}
+
+label.bag {
+    width: 32px;
+    height: 32px;
+    background: url(../images/bag.png)no-repeat;
+    display: initial;
+    top: 5em;
+    left: 39.7em;
+}
+
+.exp-devide-grid-right {
+    width: 100%;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 30px;
+}
+
+.exp-devide-grid-left {
+    width: 100%;
+    padding-top: 30px;
+    padding-right: 10px;
+    text-align: right;
+}
+
+
+.exp-devide-grid-right h5, .exp-devide-grid-left h5{
+    color: #2b3b4b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.exp-devide-grid-right small, .exp-devide-grid-left small {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7f8a90;
+    padding: 0 0 10px 0;
+}
+
+
+.exp-devide h4 {
+    color: #2b3b4b;
+    background: #d4d4d4;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    width: 180px;
+    font-weight: 800;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -moz-border-radius: 6px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.exp-devide-grid-right h5, .exp-devide-grid-left h5{
+    color: #2b3b4b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0;
+}
+
+
+
+
+/* education */
+
+.education {
+    margin-top: 20px;
+}
+
+.subsection-timeline-education{
+	margin-top: 100px;
+}
+
+.subsection-timeline-experience{
+	margin-top: 30px;
+}
+
+#timeline{
+	padding-bottom: 80px;
+}
+
+.hello-world p{
+	text-align: center;
+	font-size: 36px;
+}
+
